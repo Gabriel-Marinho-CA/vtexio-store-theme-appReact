@@ -1,0 +1,137 @@
+
+
+.actived {
+    display: flex !important;
+}
+
+/*DESKTOP*/
+
+.menu_header_down{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.all_content_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+}
+
+.all_content_menu li a {
+    font: normal normal 300 20px/27px Open Sans;
+    color: #191715;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.escolha_tamanho{
+    cursor: pointer;
+}
+.escolha_tamanho span {
+    color: #C40011;
+    font: normal normal 600 20px/27px Open Sans;
+}
+.escolha_tamanho span i {
+    font-family: fontAwesome;
+}
+.menu_desktop{
+    position: absolute;
+    width: 1075px;
+    display: block;
+    z-index: 99;
+}
+.Submenu{
+    display: none;
+    gap: 0px;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    z-index: 50;
+    box-shadow: 0px 6px 10px #00000057;
+
+}
+.list_subcategories {
+    display: flex;
+}
+.list_subcategories ul {
+    border-right: 1px solid #707070;
+    padding: 0px 46px;
+    list-style:none;
+}
+.list_subcategories ul:nth-last-child(1) {
+    border-right: none !important;
+}
+.list_subcategories ul > li > a {
+    font: normal normal 300 18px/53px Open Sans;
+    color: #191715;
+}
+.low_bar_subcategories{
+    background-color: #C40011;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* MENU TAMANHOS */
+
+.menu_tamanhos_desktop {
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-top: 20px;
+   padding-bottom: 20px;
+    position: absolute;
+    top: 164px;
+    background-color: white;
+    z-index: 2;
+    left: 0;
+}
+.tamanho {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: max-content;
+    margin: 0 auto;
+}
+.tamanho p {
+    font: normal normal 300 25px/34px Open Sans;
+    letter-spacing: 0px;
+    color: #C40011;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.tamanho > ul {
+    display: flex;
+    gap: 8px;
+    list-style: none !important;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.tamanho ul > li {
+    border: 1px solid #191715;
+    border-radius: 3px;
+    padding: 0px 15px;
+}
+.tamanho ul > li a {
+    font: normal normal 300 23px/32px Open Sans;
+    letter-spacing: 0px;
+    color: #191715;
+    text-decoration: none;
+}
+
+@media (min-width: 1010px) {
+    .menu_mobile{
+        display: none;
+    }
+}   
+
+
+/* END DESKTOP */
