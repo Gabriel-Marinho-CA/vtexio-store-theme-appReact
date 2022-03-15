@@ -1,0 +1,43 @@
+/* LOGO */
+
+.image {
+    padding-right: 28px;
+}
+
+.searchBarContainer{
+    display: flex;
+    align-items: center;
+}
+.minicartWrapperContainer--wrap-header-cart{
+    display: flex;
+    justify-content: end;
+}
+/* .custom-header{
+    background-color:red;
+} */
+
+
+/*SERVICES*/
+
+.container--wrapper-services-header-left{
+    justify-content: end;
+    display: flex;
+    width: max-content;
+}
+.paragraph--wrapper-services-header-left{
+    margin-top: 25px;
+}
+
+.paragraph--wrapper-services-header-right{
+    font: normal normal 300 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #191715;
+}
+.strong--wrapper-services-header-right {
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #191715;
+}
+.image--wrapper-services-header-left{
+    padding-right: 10px;   
+}

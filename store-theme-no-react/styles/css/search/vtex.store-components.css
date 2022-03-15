@@ -1,0 +1,32 @@
+.productBrandName--summaryListDesktop {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067C7;
+  font-size: .875rem;
+}
+
+.productBrandName--summaryListMobile {
+  text-decoration: none;
+  color: #0067C7;
+  font-size: .875rem;
+}
+.searchBarContainer{
+  display: flex;
+  align-items: center;
+}
+/* .search-header{
+  display: flex;
+  align-items: center;
+} */
+.searchIcon--search-header{
+  color: #C40011;
+  height: auto;
+  width: 23px;
+}
+
+.container .headerDown{
+  background-color: #000;
+}
+.header-content-donw-wrap{
+  background-color: #000;
+}

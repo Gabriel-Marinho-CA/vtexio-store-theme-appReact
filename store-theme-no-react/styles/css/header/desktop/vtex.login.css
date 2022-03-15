@@ -1,0 +1,51 @@
+.container{
+    background-color: transparent;
+    position: relative;
+    margin-top: -15px;
+}
+.container::after {
+    content: "Meus pedidos";
+    font-weight: bold;
+    color: #000;
+    bottom: -5px;
+    position: absolute;
+    left: 66px;
+}
+/* .container::before {
+    background-image: url('/store-theme-no-react/assets/imgs/ico-user.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    z-index: 3;
+} */
+.container button {
+    width: max-content;
+    position: relative;
+} 
+.container button:hover {
+    background-color: transparent;
+}
+.container svg {
+    width: 30px;
+    height: 30px;
+}
+.profileIcon--login-button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 24px;
+    top: 9px;
+}
+
+
+.container .label {
+    margin-left: 27px;
+    font: normal normal 300 15px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #191715;
+}
+.container .label:hover {
+    background-color: transparent;
+}
+/* .custom-header{
+    background-color:red;
+} */

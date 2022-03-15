@@ -1,0 +1,17 @@
+.flexRow--container{
+    margin: 0 auto;
+    width: 1170px;
+}
+.minicartWrapperContainer{
+    display: flex;
+    justify-content: end;
+}
+.flexRowContent--header {
+    align-items: center;
+}
+.headerDown{
+    background-color:black;
+}
+/* .custom-header{
+    background-color:red;
+} */

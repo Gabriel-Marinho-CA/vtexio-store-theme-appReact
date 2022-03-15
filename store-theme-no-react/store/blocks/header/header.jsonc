@@ -1,0 +1,22 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      //chamamos o custom element 
+      "flex-layout.row#header-content",
+      "flex-layout.row#header-content-down"
+    ]
+  },
+  "flex-layout.row#header-content-down": {
+    "props": {
+      "blockClass": "header-content-down-wrap"},
+      "children":["header-down"]
+  }
+
+}
+

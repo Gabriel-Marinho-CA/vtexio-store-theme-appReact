@@ -1,0 +1,108 @@
+{
+    "flex-layout.row#header-content": {
+       "props":{
+         "blockClass":["header","container"],
+         "colSizing": "auto"
+       },
+       "children": [
+         
+           "flex-layout.row#logo-header",
+           "search-bar",
+            "flex-layout.row#services",
+           "login",
+           "flex-layout.row#minicart"
+  
+     
+       ]
+     },
+
+    //  "flex-layout.col#logo": {
+    //    "props":{
+    //      "blockClass":"logo-header",
+    //      "width":"20%"
+    //    }
+    //  },
+    "flex-layout.row#logo-header": {
+      "props":{
+        "blockClass": "logo-image"
+      },
+      "children": ["rich-text#logo-image"]
+    },
+
+     "search-bar": {
+       "props":{
+         "blockClass":"search-header",
+         "width":"46%",
+         "verticalAlign":"middle"
+        }
+      },
+      "flex-layout.row#services": {
+        "children":[
+            "rich-text#services-header-left",
+            "rich-text#services-header-right"
+        ],
+        "props":{
+          "blockClass":"services-header",
+          "verticalAlign":"middle",
+          "width":"17%"
+        }
+      },
+     "login": {
+       "props": {
+           "emailAndPasswordTitle": "LOG-IN",
+           "accessCodeTitle": "Acess Code LOG-IN",
+           "emailPlaceholder": "e-mail",
+           "passwordPlaceholder": "password",
+           "showPasswordVerificationIntoTooltip": true,
+           "width":"15%",
+           "verticalAlign":"middle",
+           "iconLabel":"Minha conta e",
+           "blockClass":"login-button",
+           "showIconProfile":"true"
+       }
+     },
+     "flex-layout.row#minicart": {
+       "props": {
+         "blockClass":"wrap-minicart"
+       },
+       "children": ["minicart.v2"]
+     }, 
+
+
+   
+     // ======== CONTENT AREA ========== // 
+   
+   
+    //  "rich-text#logo-header": {
+    //      "props": {
+    //          "text":"ioi",
+    //          "blockClass":"wraper-logo-header"
+    //      }
+    //  },
+    "rich-text#logo-image": {
+        "props": {
+          "text":"![logo](assets/imgs/logo.png)",
+          "blockClass":"wrapper-logo"
+        }
+    },
+
+     "rich-text#services-header-left": {
+         "props": {
+             "text":"![Atendimento](assets/imgs/atendimento-ico.png)",
+             "blockClass":"wrapper-services-header-left"
+         }
+     },
+     "rich-text#services-header-right": {
+         "props": {
+             "text":"Serviços e \n**Atendimento**",
+             "blockClass":"wrapper-services-header-right"
+         }
+     },
+     "minicart.v2":{
+      "props": {
+         "horizontalAlign":"right",
+         "blockClass":"wrap-header-cart"
+      }
+     }
+    
+}
